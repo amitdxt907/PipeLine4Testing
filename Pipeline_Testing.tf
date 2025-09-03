@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "Pipeline-RG" {
   name     = "Pipeline-RG"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "Pipeline-RG2" {
+  name     = "Pipeline-RG2"
+  location = "West Europe"
+}
